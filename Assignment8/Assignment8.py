@@ -27,6 +27,7 @@ def display_weather_info(weather_data):
     else:
         print("No weather data to display.")
 
+# Create an account on "https://openweathermap.org/" and enter your own api key.
 def main():
     api_key = '1c8b5e9ee02a4d3e8662d6c137515f0e' 
     city = input("Enter the city: ")  # Get city name from user
